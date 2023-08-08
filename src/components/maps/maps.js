@@ -25,8 +25,8 @@ const GISMaps = (props) => {
 
     const view = new MapView({
       map: map,
-      center: [31.4117257, 35.0818155],
-      zoom: 8,
+      center: [35.0818155,31.4117257],
+      zoom: 7,
       container: mapDiv.current,
       constraints: {
         minZoom: 7
